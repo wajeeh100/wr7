@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', 'sans-serif';
+    background: #fff;
+
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+
+label {
+    font-size: 14px;
+    margin: 10px 0 3px 0;
+    text-align: left;
+}
+
+
+.col-md-5 { background: #f7f7f7;
+    border: 1px solid #ADADAD;
+    display: flex;
+    height: auto;
+    padding: 1em 1.5em;
+    border-radius: 20px;
+    vertical-align: center;
+}
+
+
+.login-container {
+    margin-right: 0.75em;
+}
+
+.signup-container {
+    margin-left: 0.75em;
+}
+
+
+
+.form-container {
+    flex: 50%;
+    padding: 10px;
+    vertical-align: center;
+}
+
+.Affiliate {
+    justify-content: center;
+}
+
+
+
+input,select,textarea {
+    display: inline-block;
+    padding: 0 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    outline: 0;
+    transition: .2s;
+    width: 100%;
+}
+input,select {
+    height: 46px;
+}
+
+.checkbox {
+    justify-content: left;
+}
+
+
+.social{
+    text-align: center;
+    margin: 1em 0;
+    font-size: 2em;
+    
+}
+
+
+
+.fa-google {
+    color: #D62D20;
+}
+
+.fa-facebook-f {
+    color:#3B5998;
+    margin: 0 1em;
+
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.button {
+    text-align: center;
+}
+
+button{
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #de48b5 0%, #0097ff 100%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin: 2em 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 150px;
+}
+
+
+
+button:hover {
+    background-color: #FF2902;
+}
+
+
+
+@media (max-width: 1172px) {
+    h1 {
+        margin-top: 0.6em;
+        margin-bottom: 0.6em;
+    }
+
+    .container {
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .log-in {
+        border-bottom: 1px solid #707070;
+    }
+
+    .login-container {
+        margin: 0;
+        padding: 0;
+
+    }
+    
+    .signup-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .log-in {
+        justify-content: center;
+        border-right: none;
+    }
+
+    .social{
+        justify-content: center;
+        text-align: center;
+        margin: 0.3em 0;
+        font-size: 2em;
+        
+    }
+
+    button{
+        display: inline-block;
+        border: none;
+        border-radius: 10px;
+        background: linear-gradient(to right, #de48b5 0%, #0097ff 100%);
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 8px 10px;
+        margin-top: 0.8em;
+        letter-spacing: 1px;
+        cursor: pointer;
+        width: 150px;
+    }
+}
+body {
+		 background-image: url(../images/backdround.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+	background-attachment: fixed
+}

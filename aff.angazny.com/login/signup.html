@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from aff.angazny.com/login/signup.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Nov 2022 22:50:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<title>Sign</title>
+<link rel="shortcut icon" href="img/shark.svg" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../../use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link href="css/call-styles2.css" rel="stylesheet" type="text/css">
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
+<script src="../../www.google.com/recaptcha/api3b36.js?render=6LeL_rsZAAAAAM-kw-tIZyjaJrw-M4-UoLKL2UEp"></script>
+
+<script>
+//    function onSubmit(token) {
+// var error="";
+// if($("#name").val()==""){
+//         error+="Full Name is required<br>"
+//     }
+//     if($("#name").val()==""){
+//         error+="Full Name is required<br>"
+//     }
+
+//     $(".modal-message").text(error)
+//     $('#myModal').modal('show')
+
+
+//      //document.getElementById("signup-form").submit();
+//    }
+ </script>
+<script>
+
+        grecaptcha.ready(function() {
+          grecaptcha.execute('6LeL_rsZAAAAAM-kw-tIZyjaJrw-M4-UoLKL2UEp', {action: 'submit'}).then(function(token) {
+              // Add your logic to submit to your backend server here.
+                $(".g-recaptcha-response").val(token)
+          });
+        });
+      
+  </script>
+
+</head>
+
+<body>
+    <div class="container" style="margin-top: 30px">
+        
+                <form method="post" id="signup-form" action="#">
+        <div class="col-md-5 m-auto">
+        <div class="form-container Affiliate">
+         <div class="login-container">
+                         <div class="form-row">
+               <div class="col-md-12"><h1  align="left" style="font-size: 20px; margin:0 ">Become An </h1></div>
+                 <div class="col-md-6 col-6">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input class="custom-control-input" type="radio" value="1" name="type" checked   id="Affilite">
+                    <label class="custom-control-label" for="Affilite">Affiliate</label>
+                  </div>
+                   </div>
+                 <div class="col-md-6 col-6">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input class="custom-control-input" type="radio" disabled="disabled" value="2"  name="type" id="Seller">
+                    <label class="custom-control-label" for="Seller">Seller</label>
+                  </div>
+                   </div>
+             </div>
+             <input type="hidden" value="JDJ5JDEwJGcuZ2N0QTlpZXhiRDhKdWNzYWpCR2VHYVA5SlF6clkxY0lJTTY0TkVsUG56aUpkOVpmSHIu" name="csrf_token">
+                    <label for="username"><b>Full Name</b></label>
+                    <input type="text" placeholder="Enter your Full Name" value="" required name="name" id="name" />
+        
+                    <label for="phone"><b>Phone</b></label>
+                    <input type="text" placeholder="Enter your Phone" required pattern="(010|011|012|015).[0-9]{7}"  value="" name="phone" >
+                     <label for="E-m"><b>E-mail</b></label>
+                    <input type="email" placeholder="Enter your E-mail" name="email"  required value="" >
+                     <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter your password" required name="password" >
+                    <label for="username"><b>Store Name</b></label>
+                    <input type="text" placeholder="Enter your Store Name" value="" name="Storename" id="Storename" />
+                    <label for="username"><b>Store Link</b></label>
+                    <input type="text" placeholder="Enter your Store Link" value="" name="StoreLink" id="StoreLink" />
+
+           </div>
+               <div class="button">
+    <input type="hidden" name="action" value="submit">
+               <input type="hidden" name="g-recaptcha-response" class="g-recaptcha-response" >    
+               <button type="submit" name="Sumbit">Sumbit</button></div>
+        </div>
+        </div>
+        </form>
+            </div>
+
+       <div class="modal" tabindex="-1" id="myModal" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"> <i class="fas fa-exclamation-triangle"></i> Alert</h5>
+        <button type="button" class="close" data-dismiss="modal" style="padding: 0;width: 35px;background: gainsboro;border-radius: 4px;" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="text-danger modal-message"></p>
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+<!-- Mirrored from aff.angazny.com/login/signup.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Nov 2022 22:50:20 GMT -->
+</html>

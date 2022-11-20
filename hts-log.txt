@@ -1,0 +1,19 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 20 Nov 2022 14:50:14 at https://wajeehrezq1414%40gmail.com:sosowajeeh@aff.angazny.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://wajeehrezq1414%40gmail%2ecom:sosowajeeh@aff.angazny.com -O1 "C:\Users\pc\Downloads\gogo" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:50:15	Warning: 	Found for https://wajeehrezq1414%40gmail.com:sosowajeeh@aff.angazny.com/robots.txt
+14:50:15	Warning: 	File has moved from https://wajeehrezq1414%40gmail.com:sosowajeeh@aff.angazny.com/robots.txt to /login
+14:50:15	Warning: 	Found for https://wajeehrezq1414%40gmail.com:sosowajeeh@aff.angazny.com/
+14:50:15	Warning: 	File has moved from https://wajeehrezq1414%40gmail.com:sosowajeeh@aff.angazny.com/ to /login
+14:50:16	Warning: 	Found for https://aff.angazny.com/robots.txt
+14:50:16	Warning: 	File has moved from https://aff.angazny.com/robots.txt to /login
+14:50:16	Warning: 	Found for https://aff.angazny.com/login/
+14:50:16	Warning: 	File has moved from https://aff.angazny.com/login/ to login.php?url=%2Flogin%2F
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 seconds : 17 links scanned, 13 files written (515562 bytes overall) [197052 bytes received at 32842 bytes/sec], 428366 bytes transferred using HTTP compression in 10 files, ratio 23%, 2.5 requests per connection
+(No errors, 8 warnings, 0 messages)
